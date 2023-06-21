@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/ProductosList.css';
 import uniforme1 from '../images/uniforme1.jpg'; // Importa la imagen uniforme1.jpg
 
-function Accesorios() {
+function ProductosList() {
   // Supongamos que tienes una lista de productos
   const productos = [
     { nombre: 'Producto 1', cantidad: 2, imagen: uniforme1, precio: 10 }, // Utiliza la imagen uniforme1.jpg
@@ -13,7 +13,7 @@ function Accesorios() {
 
   return (
     <div className="productos-list">
-      <h2 className="productos-list-title">Accesorios</h2>
+      <h2 className="productos-list-title">Destacados</h2>
       <div className="productos-grid">
         {productos.map((producto, index) => (
           <div key={index} className="producto-card">
@@ -29,4 +29,4 @@ function Accesorios() {
   );
 }
 
-export default Accesorios;
+export default ProductosList;

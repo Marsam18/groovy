@@ -1,0 +1,44 @@
+.carrito-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tabla-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tabla-carrito {
+  width: 100%;
+  border-collapse: collapse;
+  /* Estilos adicionales para la tabla */
+}
+
+.subtotal-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  /* Estilos adicionales para el subtotal */
+}
+
+.datos-envio-container {
+  width: 100%;
+  margin-top: 20px;
+  /* Estilos adicionales para el contenedor de datos de envío */
+}

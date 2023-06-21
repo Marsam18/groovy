@@ -1,0 +1,23 @@
+.principal-page {
+    /* Estilos para la página principal */
+  }
+  
+  .banner-container {
+    /* Estilos para el contenedor del banner */
+  }
+  
+  .productos-container {
+    /* Estilos para el contenedor de productos */
+  }
+  
+  .lista-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Puedes ajustar el número de columnas según tus necesidades */
+    grid-gap: 20px; /* Espacio entre los productos */
+    margin-top: 20px;
+  }
+  
+  .producto {
+    /* Estilos para cada producto */
+  }
+  
